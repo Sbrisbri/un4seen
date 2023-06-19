@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html>
+ 
+<head>
+    <title>un4seen</title>
+    <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--css sheets-->
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-About.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-App.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-Features.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-Footer.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-Generale.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-Header.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-Home.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-Partefinale.css">
+    <link rel = "stylesheet" type = "text/css" href="css/un4seen-Plugin.css">
+
+    <style>
+      .panel {
+        display: none;
+      }
+      .show {
+        display: block;
+      }
+    </style>
+
+<style>
+  .panelteams {
+    display: none;
+  }
+  .showteams {
+    display: block;
+  }
+</style>
+
+
+</head>
+
+<body>
+    <div class="container-fluid" id ="header">
+        <nav class="navbar navbar-expand-md p-3">
+            <a class="navbar-brand" href="#Home">
+                <img src = "icon/Logotestata.png" width= "120px" height="28.04px">
+              </a>
+    
+              <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-expanded="false" aria-controls="collapsibleNavbar" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <!--questo navbar-nav si riferisce agli elementi interni dell'hamburger menu-->
+                <ul class="navbar-nav text-center pr-5">
+                    <!--questo nav-item si riferisce invece agli elementi quando non c'è l'hamburger menu ma sono disposti uno dopo l'altro-->
+                  <li class="nav-item">
+                    <!--il nav-link invece caratterizza ogni elementi di entrambi i menu-->
+                    <a class="nav-link" href="#Home">Download</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#App">L'app</a>
+                  </li>    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Features">Features</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Plugin">Plugin</a>
+                  </li> 
+                </ul>
+              </div>
+        </nav>
+    </div>
+
+<!--Inizio Home-->
+<section id = "Home">
+    <div class="container">
+      <div class="row">
+  
+            <div class="col-md-6 d-md-flex flex-md-column justify-content-center pt-5 pt-lg-0 order-2 order-md-1">
+  
+              <!--Inizio classe intro-->
+              <div class="Intro">
+                <h1>Evita gli imprevisti. <br>
+                  Diventa <span class = "mark verde">consapevole</span><br> e <span class = "mark verde">inclusivo.</span></h1>
+                <p id="testosotto">un4seen è un'app mobile aziendale che ti consente di accrescere la consapevolezza sulle microaggressioni verbali, per garantire un ambiente lavorativo inclusivo.</p>
+                
+                <button type = "button" id = "buttonDownload" class = "button buttonDownload">Download Now</button>  
+
+                <a href="#About">
+                  <button type = "button" id = "buttonScopri" class = "button buttonScopri">Scopri di più</button>  
+                </a>
+
+                <a class="stile" href="https://www.apple.com/it/app-store/" target="_blank">
+                <button type = "button" id = "buttonApple">
+                  <img src="img/download-apple-dark.svg" width="80" height="20">
+                </button> 
+              </a>
+              <a class="stile" href="https://play.google.com/store/games?hl=it&gl=US" target="_blank">
+                <button type = "button" id = "buttonGooglePlay">
+                  <img src="img/download-google-dark.svg" width="150" height="21.8">
+                </button> 
+              </a>
+              
+              <a href="#About">
+                <button type = "button" id = "buttonmobilescopri">Scopri di più
+                </button> 
+              </a>
+
+              </div>
+            <!--Fine classe intro-->
+  
+              <!--questa è la finestra che si apre se clicco su download now-->
+  <div id="myModalDownload" class="modal Download">
+  
+    <div class="modal-content02">
+      <span class="close02">&times;</span>
+      <!--<p><a class = "downloadelement" href="#">Home</a></p>-->
+  
+        <a href="https://www.apple.com/it/app-store/" target="_blank">
+        <button type = "button" id = "buttonApplepopup">
+          <img src="img/download-apple-light.svg" width="75" height="18.75">
+        </button> 
+        </a>
+  
+        <a href="https://play.google.com/store/games?hl=it&gl=US" target="_blank">
+          <button type = "button" id = "buttonGooglePlaypopup">
+            <img src="img/download-google-light.svg" width="137.61" height="20">
+          </button> 
+        </a>
+  
+        <p class = "qr"><img src ="img/Qr code insieme.png" width="287px" height="118.56px"></p> 
+    </div>
+  
+  </div>
+  
+  <!--script per il tasto download-->
+  <script>
+    var modal02 = document.getElementById("myModalDownload");
+    var btn02 = document.getElementById("buttonDownload");
+    var span02 = document.getElementsByClassName("close02")[0];
+     
+    btn02.onclick = function() {
+      modal02.style.display = "block";
+    }
+    
+    span02.onclick = function() {
+      modal02.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+      if (event.target == modal02) {
+        modal02.style.display = "none";
+      }
+    }
+    </script>
+            </div>
+  
+  <div class="col-md-6 d-md-flex flex-md-column align-items-stretch pt-5 pt-lg-0 order-1 order-md-2">
+    <div id="fotoiniz">
+      <img class="img-fluid inizio" src="img/Mockup Download.png">
+    </div>
+  </div>
+  
+            <!--Questo div qua sotto chiude la classe row-->
+          </div>
+    <!--Questo div qua sotto chiude la classe container-->      
+    </div>
+</section>
+<!--Fine Home-->
+
+<!--Inizio About-->
+<section id = "About">
+
+    <div class="titolosezione">
+      <h1><span class="mark verdesezione">About</span></h1>
+    </div>
+  
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-5 pt-lg-0">
+    
+    <div class="primaparte">
+        <div class="microaggressioni">
+            <h2>Microaggressioni</h2>
+        </div>
+        <div class = "spiegazione">
+            <p id = "descrizione">Le microaggressioni sono commenti e azioni molto sottili che derivano da <span class = "mark rosso">pregiudizi</span><span class = "mark rosso">e/o</span><span class = "mark rosso">stereotipi</span> impliciti.
+                                  Possono essere <span class = "mark rosso">intenzionali</span><span class = "mark rosso">o</span><span class = "mark rosso">non</span><span class = "mark rosso">intenzionali,</span> ma l'impatto può essere livello macro: 
+                                  perpetuare costantemente e apertamente stereotipi e denigrare qualcuno può rafforzare le barriere sul posto di lavoro, 
+                                  quando si accede a ruoli di leadership e altri. </p>
+         </div>
+    </div>
+            <ul class="frasi">
+  
+              <li class="iconeprofilo">
+                <div class="profilo">
+                   <img src = "img/Profilo.svg" width="60" height="60" data-aos="fade-right" data-aos-duration="2000">
+                </div>
+                <div class="commento">
+                  <p id = "microaggressioni1"> "So che sei di un'altra razza, ma non riesco a capirlo <span class = "mark rosso">dal</span><span class = "mark rosso">tuo</span><span class = "mark rosso">aspetto."</span></p>
+                </div>
+              </li>
+  
+              <li class="iconeprofilo">
+                <div class="profilo">
+                   <img src = "img/ProfiloSessualità.svg" width="60" height="60" data-aos="fade-right"  data-aos-delay="200" data-aos-duration="2000">
+                </div>
+                <div class="commento">
+                  <p id = "microaggressioni2"> "Sono sicuro che la tua bisessualità <span class = "mark rosso">è</span><span class = "mark rosso">solamente</span><span class = "mark rosso">una</span><span class = "mark rosso">fase."</span></p>
+                </div>
+              </li>
+  
+              <li class="iconeprofilo">
+                <div class="profilo">
+                   <img id = "età" src = "img/ProfiloEtà.svg" width="60" height="60" data-aos="fade-right"  data-aos-delay="400" data-aos-duration="2000">
+                </div>
+                <div class="commento">
+                  <p id = "microaggressioni3">"Sei un po' <span class = "mark rosso">troppo</span><span class = "mark rosso">piccolo</span> per portare avanti questo progetto da solo."</p>
+                </div>
+              </li>
+  
+            </ul>
+  
+            </div>
+      
+         <div class="col-lg-7 justify-content-center pt-5">
+          
+            <img class="img-fluid nomobile" src="img/Gif-sezione-microaggressioni.gif">
+
+            <img class="img-fluid mobile" src="img/Gif-sezione-microaggressioni-per-mobile.-gif.gif">
+
+          </div>
+    </div>
+  </div>
+  </section>
+  <!--Fine About-->
+  
+  <!--Inizio L'app-->
+  <section id = "App">
+
+    <div class="titolosezione">
+      <h1><span class="mark verdesezione">L'app</span></h1>
+    </div>
+  
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-5 order-1 order-lg-2">
+
+          <div class="primaparteapp">
+              <div class="microaggressioni">
+                  <h2>un4seen</h2>
+              </div>
+              <div class = "spiegazione">
+                  <p id = "descrizione">un4seen è stata progettata con lo scopo di <span class="mark verdefisso">educare</span><span class="mark verdefisso">e</span><span class="mark verdefisso">rendere</span><span class="mark verdefisso">consapevoli</span> le persone 
+                    degli effetti e delle conseguenze delle microaggressioni in contesti lavorativi. All'interno dell'app è possibile trovare
+                  5 sezioni diverse: home, tips, chatbot, teams e profilo. </p>
+               </div>
+          </div>
+
+      </div>
+
+      <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch pt-5 order-2 order-lg-1">
+        <div id="gifappintro">
+          <img class="img-fluid gifapp" src="img/Videosezioneapp_AdobeExpress.gif">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center pt-5">
+
+      <div class="col-lg-2 col-md-8 d-lg-flex flex-lg-column justify-content-top pt-5 pt-lg-5">
+          <h5>Home</h5>
+        <div class="Icondesc">
+          <img src="img/IconaDashboard.svg" width="40" height="40" data-aos="fade-up" data-aos-duration="2000">
+        </div>
+         <p class="descrizioniicone">Tips giornaliere e weekly task guidano l'utente nella comprensione delle microagressioni.</p>
+      </div>
+
+      <div class="col-lg-2 col-md-8 d-lg-flex flex-lg-column justify-content-top pt-5 pt-lg-5">
+        <h5>Tips</h5>
+        <div class="Icondesc">
+          <img src="img/IconaTips.svg" width="40" height="40" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+        </div>
+         <p class="descrizioniicone">Storico ed esplorazione tra le tips salvate e catalogate per tipologia.</p>
+      </div>
+
+      <div class="col-lg-2 col-md-8 d-lg-flex flex-lg-column justify-content-top pt-5 pt-lg-5">
+        <h5>Four</h5>
+        <div class="Icondesc">
+          <img src="img/IconaChatbot.svg" width="40" height="40" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+        </div>
+         <p class="descrizioniicone">Supporto del chatbot Four per delucidazioni e analisi istantanea di documenti.</p>
+      </div>
+
+      <div class="col-lg-2 col-md-8 d-lg-flex flex-lg-column justify-content-top pt-5 pt-lg-5">
+        <h5>Teams</h5>
+        <div class="Icondesc">
+          <img src="img/IconaTeam.svg" width="40" height="40" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+        </div>
+         <p class="descrizioniicone">Possibilità di creare teams e svolgere task insieme per raggiungere maggiori risultati.</p>
+      </div>
+
+      <div class="col-lg-2 col-md-8 d-lg-flex flex-lg-column justify-content-top pt-5 pt-lg-5">
+        <h5>Profilo</h5>
+        <div class="Icondesc">
+          <img src="img/IconaProfilo.svg" width="40" height="40" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+        </div>
+         <p class="descrizioniicone">Riassunto obiettivi raggiunti e del proprio livello di inclusività nel contesto lavorativo.</p>
+      </div>
+
+    </div>
+  </div>
+  </section>
+  <!--Fine L'app-->
+
+  <!--Inizio Features-->
+  <section id = "Features">
+
+    <div class="titolosezione">
+      <h1><span class="mark verdesezione">Features</span></h1>
+    </div>
+  
+<!--Inizio primo container-->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center pt-5 order-1 order-lg-1">
+
+        <div class="primaparte">
+            <div class="microaggressioni">
+                <h2>Home</h2>
+                <h4>Tips and Task settimanali</h4>
+            </div>
+            <div class = "spiegazione">
+                <p id = "descrizione">Ogni giorno a ogni utente vengono proposte delle tips differenti, 
+                  in base agli errori commessi e rilevati tramite l'utilizzo del Plugin o dell'app di un4seen. 
+                  Allo stesso modo ogni settimana verrano lanciate delle differenti sfide per spingere l'utente 
+                  a <span class="mark verdefisso">prendere</span><span class="mark verdefisso">consapevolezza</span> e a correggere il proprio modo di relazionarsi.</p>
+             </div>
+        </div>
+
+        <div id="gifappintro">
+          <img class="img-fluid mockup" src="img/Mockup Home.png" data-aos="fade-right" data-aos-duration="1000">
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center pt-5 order-1 order-lg-2">
+        <div class="primaparte">
+          <div class="microaggressioni">
+            <h2>Tips</h2>
+              <h4>Archivio</h4>
+          </div>
+          <div class = "spiegazione">
+              <p id = "descrizione">Tutte le tips visualizzate saranno automaticamente salvate nell'archivio, 
+                il quale costituirà una vera e propria <span class="mark verdefisso">catalogazione</span><span class="mark verdefisso">delle</span><span class="mark verdefisso">microaggressioni</span> che possono essere 
+                collegabili al profilo dell'utente. Tra tips salvate e archiviate sarà possibile rivedere in ogni 
+                momento la loro spiegazione, insieme a ulteriori esempi.</p>
+           </div>
+      </div>
+      <div id="gifappintro">
+        <img class="img-fluid mockup" src="img/Mockup Tips.png" data-aos="fade-left" data-aos-duration="1000">
+      </div>
+      </div>
+
+  </div>
+
+</div>
+<!--Fine primo container-->
+
+<!--Inizio secondo container-->
+<div class="container">
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-lg-5 col-md-8 d-lg-flex flex-lg-column justify-content-center pt-5 pt-lg-5">
+      <h2 style="text-align: center;">Four</h2>
+       <p class="descrizioniicone">Four è il chatbot di un4seen, sempre disponibile in ciò di cui l'utente ha bisogno.</p>
+
+       <div class="buttonschatbot">
+          <button class="btn-responsive testo" type = "button" data-id = "analisitesto">Analisi testo</button>
+          <button class="btn-responsive delu" type = "button" data-id = "delucidazioni">Delucidazioni</button> 
+       </div>
+
+    </div>
+  </div>
+</div>
+<!--Fine secondo container-->
+
+<!--Inizio panel 1-->
+    <div class="panel" id="analisitesto">
+        <div class="container">
+        <div class="row">
+          <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-lg-0 order-1 order-lg-2">
+  
+            <div class="primaparteapp">
+                <div class="microaggressioni">
+                    <h4>Analisi testo</h4>
+                </div>
+                <div class = "spiegazione">
+                    <p id = "descrizione">Importando o digitando manualmente un testo è possibile ottenerne una 
+                      <span class="mark verdefisso">correzione</span> in maniera instantanea. Infatti, dopo avere selezionato il tono di voce desiderato, 
+                      verrano evidenziati gli errori individuati accanto alle <span class="mark verdefisso">possibili</span><span class="mark verdefisso">alternative</span> e alla <span class="mark verdefisso">spiegazione</span> 
+                      del perché quell'espressione o quel termine è discriminante.</p>
+                 </div>
+            </div>
+  
+        </div>
+  
+        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-2 order-lg-1">
+          <div id="gifappintro">
+            <img class="img-fluid mockup" src="img/Mockup Analisi testo.png">
+          </div>
+        </div>
+  
+      </div>
+    </div>
+   </div>
+<!--Fine panel 1-->
+
+<!--Inizio panel 2-->
+       <div class="panel" id="delucidazioni">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-lg-0 order-1 order-lg-2">
+    
+              <div class="primaparteapp">
+                  <div class="microaggressioni">
+                      <h4>Delucidazioni</h4>
+                  </div>
+                  <div class = "spiegazione">
+                      <p id = "descrizione">Spesso si percepisce come alcune frasi da noi pronunciate feriscano 
+                        le persone con cui ci relazioniamo. Non sempre, però, si è in grado di capire in cosa abbiamo 
+                        sbagliato o in che modo le nostre parole abbiano turbato l'altro. Per questo Four, 
+                        attraverso il racconto dell'utente di quanto è accaduto, rappresenta un valido aiuto per <span class="mark verdefisso">comprendere</span><span class="mark verdefisso">e</span><span class="mark verdefisso">risalire</span><span class="mark verdefisso">all'errore</span> da noi commesso.</p>
+                   </div>
+              </div>
+    
+          </div>
+    
+          <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-2 order-lg-1">
+            <div id="gifappintro">
+              <img class="img-fluid mockup" src="img/Mockup Delucidazioni.png">
+            </div>
+          </div>
+    
+        </div>
+      </div>
+       </div>
+<!--Fine panel 2-->
+
+       <script>
+        const buttons = document.querySelector('.buttonschatbot');
+        const panels = document.querySelectorAll('.panel');
+    
+        buttons.addEventListener('click', handleClick);
+    
+        function handleClick(e) {
+          
+          if (e.target.matches('button')) {
+     
+            panels.forEach(panel => panel.classList.remove('show'));
+    
+            const { id } = e.target.dataset;
+
+            const selector = `.panel[id="${id}"]`;
+            document.querySelector(selector).classList.add('show');
+          }
+        }
+      </script>
+  <!--Fine sezione Four-->
+
+
+<!--Inizio parte teams-->
+<!--Inizio primo container parte teams-->
+<div class="container">
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-lg-5 col-md-8 d-lg-flex flex-lg-column justify-content-center pt-5 pt-lg-5">
+      <h2 style="text-align: center;">Teams</h2>
+      <p class="descrizioniicone">Nella sezione teams è possibile vedere di quale gruppo si fa parte ed è possibile accedere alle sfide comuni.</p>
+       <div class="buttonsteams">
+          <button class="btn-responsive tbutton" type = "button" data-id="panelteams">Teams</button>
+          <button class="btn-responsive tabutton" type = "button" data-id="paneltasks">Tasks</button> 
+       </div>
+
+    </div>
+  </div>
+</div>
+<!--Fine primo container parte teams-->
+
+<!--Inizio primo panel sezione teams-->  
+  <div class="panelteams" id="panelteams">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-lg-0 order-1 order-lg-2">
+
+          <div class="primaparteapp">
+              <div class="microaggressioni">
+                  <h4>Teams</h4>
+              </div>
+              <div class = "spiegazione">
+                  <p id = "descrizione">Oltre alla possibilità di svolgere delle task studiate ad hoc in base al profilo dell'utente, 
+                    viene data la possibilità di <span class="mark verdefisso">costruire</span><span class="mark verdefisso">dei</span><span class="mark verdefisso">gruppi</span>tra colleghi per <span class="mark verdefisso">svolgere</span><span class="mark verdefisso">insieme</span>ulteriori sfide in compagnia. 
+                    In questo modo, sarà l'andamento di <span class="mark verdefisso">tutti</span><span class="mark verdefisso">i</span><span class="mark verdefisso">partecipanti</span> a determinare il superamento o meno della sfida.</p>
+               </div>
+          </div>
+
+      </div>
+
+      <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-2 order-lg-1">
+        <div id="gifappintro">
+          <img class="img-fluid mockup" src="img/Mockup Teams.png">
+        </div>
+      </div>
+
+    </div>
+  </div>
+ </div>
+  </div>
+<!--Fine primo panel sezione teams-->
+
+<!--Inizio secondo panel sezione teams-->
+  <div class="panelteams" id="paneltasks">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-lg-0 order-1 order-lg-2">
+  
+            <div class="primaparteapp">
+                <div class="microaggressioni">
+                    <h4>Tasks</h4>
+                </div>
+                <div class = "spiegazione">
+                    <p id = "descrizione">Le tasks di “gruppo” mirano a <span class="mark verdefisso">risolvere</span> delle <span class="mark verdefisso">problematiche</span><span class="mark verdefisso">generali</span> 
+                      che sono state rilevate all'interno dell'azienda o di uno specifico dipartimento. Solo 
+                      attraverso la piena <span class="mark verdefisso">collaborazione</span><span class="mark verdefisso">di</span><span class="mark verdefisso">tutti</span> i partecipanti si potrà superare la sfida e sovvenire 
+                      alla problematica individuata.</p>
+                 </div>
+            </div>
+  
+        </div>
+  
+        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-2 order-lg-1">
+          <div id="gifappintro">
+            <img class="img-fluid mockup" src="img/Mockup Teams Tasks.png">
+          </div>
+        </div>
+  
+      </div>
+    </div>
+     </div>
+  </div>
+<!--Fine secondo panel sezione teams-->
+
+  <script>
+    
+    const buttonsteam = document.querySelector('.buttonsteams');
+    const panelsteam = document.querySelectorAll('.panelteams');
+
+    buttonsteam.addEventListener('click', handleClick);
+    function handleClick(e) {
+      
+      if (e.target.matches('button')) {
+        panelsteam.forEach(panelteams => panelteams.classList.remove('showteams'));
+
+        const { id } = e.target.dataset;
+        const selector2 = `.panelteams[id="${id}"]`;
+        document.querySelector(selector2).classList.add('showteams');
+      }
+    }
+  </script>
+  <!--Fine parte teams-->
+
+<!--Inizio parte profilo-->
+
+<div class="container prof">
+  <div class="row">
+      <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-5  pt-lg-0">
+  
+  <div class="primaparte">
+      <div class="microaggressioni">
+          <h2>Profilo</h2>
+      </div>
+      <div class = "spiegazione">
+          <p id = "descrizione">Nella sezione del profilo è possibile visualizzare il proprio comportamento, 
+            ovvero quanto il <span class="mark verdefisso">livello</span><span class="mark verdefisso">di</span><span class="mark verdefisso">inclusività</span> del nostro linguaggio stia migliorando o meno. Superando 
+            le sfide settimanali proposte, al termine del mese si potrà progredire a un <span class="mark verdefisso">livello</span><span class="mark verdefisso">successivo,</span>  
+            che denota il livello di competenza raggiunto.</p>
+       </div>
+  </div>
+
+          </div>
+    
+       <div class="col-lg-6 justify-content-center pt-lg-0">
+        
+        <div id="gifappintro">
+          <img class="img-fluid mockup" src="img/Mockup Profilo.png" data-aos="fade-up-left" data-aos-duration="1000">
+        </div>
+
+        </div>
+  </div>
+</div>
+
+<!--Fine parte profilo-->
+
+  </section>
+  <!--Fine Features-->
+
+
+<!--Inizio Plugin-->
+<section id = "Plugin">
+
+  <div class="titolosezione">
+    <h1><span class="mark verdesezione">Plugin</span></h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-5 d-lg-flex flex-lg-column justify-content-center pt-5 pt-lg-0">
+    
+    <div class="primaparte">
+        <div class="microaggressioni">
+            <h2>Plugin</h2>
+        </div>
+        <div class = "spiegazione">
+            <p id = "descrizione">Installando, in maniera semplice e veloce, la plugin di un4seen è possibile 
+              avere un <span class="mark verdefisso">controllo</span><span class="mark verdefisso">costante</span> della terminologia e delle espressioni utilizzante nei documenti ufficiali, 
+              nelle <span class="mark verdefisso">mail</span>, nelle<span class="mark verdefisso">chat</span>, etc. In questo modo, qualsiasi termine dalla valenza discriminatoria sarà subito 
+              rilevato e verrà proposta una sua alternativa più conforme.</p>
+         </div>
+    </div>
+  
+            </div>
+      
+         <div class="col-lg-7 justify-content-center pt-lg-0">
+          
+            <img class="img-fluid mockupmac" src="img/Plugin mockup.png" data-aos="fade-down-left" data-aos-duration="1000">
+
+          </div>
+    </div>
+  </div>
+</section>
+<!--Fine Plugin-->
+
+<!--Inizio parte finale-->
+<section id = "Partefinale">
+
+<div class="container">
+
+  <div class="row justify-content-center pt-5">
+    <img class="img-fluid illustrazione" src="img/Illustrazione finale.png">
+  </div>
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-lg-6 col-md-8 d-lg-flex flex-lg-column justify-content-center pt-lg-5">
+      <h1 class="scarica">Scarica l'app ora!</h1>
+      <div class = "spiegazione">
+        <p id = "descrizionescarica">Con un4seen è possibile rendere l'ambiente di lavoro in cui vivi un posto più inclusivo e sereno.</p>
+     </div>
+     <div class="downloadfinale">
+     <a class="stile" href="https://www.apple.com/it/app-store/" target="_blank">
+      <button type = "button" id = "buttonApplescarica">
+        <img src="img/download-apple-dark.svg" width="80" height="20">
+      </button> 
+    </a>
+    <a class="stile" href="https://play.google.com/store/games?hl=it&gl=US" target="_blank">
+      <button type = "button" id = "buttonGooglePlayscarica">
+        <img src="img/download-google-dark.svg" width="150" height="21.8">
+      </button> 
+    </a>
+    </div>
+    </div>
+  </div>
+
+</div>
+</section>
+<!--Fine parte finale-->
+
+<!--Inizio footer-->
+<footer id="#Footer">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-lg-4 col-md-8 d-lg-flex flex-lg-column justify-content-center  pt-5 pb-5">
+        <div class = "spiegazione">
+          <p id = "descrizionescarica"><strong>Laboratorio di sistemi per l'interazione</strong><br>
+            <strong>Politecnico di Milano</strong><br>
+            Via Giuseppe Candiani,72<br>
+            Milano, MI 20158<br>
+            Italia
+          </p>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-8 d-lg-flex flex-lg-column justify-content-center  pt-5 pb-5">
+      <div class = "spiegazionelogo">
+        <img class="img-fluid logo" src="img/Logo.svg">
+        <div>
+          <p id = "descrizionescarica"><strong>Email:</strong> Info@un4seen.com
+          </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-8 d-lg-flex flex-lg-column justify-content-center  pt-5 pb-5">
+    <div class = "spiegazione">
+      <p id = "descrizionescarica">
+        <strong>Progetto di:</strong><br>
+        Melissa Cani<br>
+        Gloria Chionne<br>
+        Viola Gatti<br>
+        Sabrina Morelli
+      </p>
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+<!--Fine footer-->
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
+</body>
+
+</html>

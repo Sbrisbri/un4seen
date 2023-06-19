@@ -1,0 +1,57 @@
+#App {
+  width: 100%;
+  position: relative;
+  margin: 0px 0px 80px 0px;
+  overflow: hidden;
+}
+
+h5 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #386641;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.Icondesc {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descrizioniicone {
+  font-family: "Poppins";
+  font-weight: 300;
+  color: #1d1d1f;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.primaparte {
+  margin-top: 50px;
+}
+
+#gifappintro {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mark.verdefisso {
+  color: #1d1d1f;
+  background-color: rgb(167, 201, 87, 0.5);
+  display: inline-block;
+  line-height: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+  .primaparteapp {
+    margin-top: 50px;
+    margin-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+  }
+}
+
+.gifapp {
+  width: 40%;
+}

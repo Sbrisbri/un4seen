@@ -1,0 +1,114 @@
+#About {
+  width: 100%;
+  position: relative;
+  margin: 0px 0px 80px 0px;
+  overflow: hidden;
+}
+
+.mark.verdesezione {
+  color: #386641;
+  background-color: rgb(167, 201, 87, 0.5);
+  display: inline-block;
+  line-height: 0.7;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*questo è il padding della striscia verde che contiene h3*/
+.titolosezione {
+  padding-top: 16px;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: center;
+}
+
+#microaggressioni1 {
+  color: #1d1d1f !important;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#microaggressioni2 {
+  color: #1d1d1f !important;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#microaggressioni3 {
+  color: #1d1d1f !important;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.mark.rosso {
+  color: #1d1d1f;
+  background-color: rgb(188, 71, 73, 0.5);
+  display: inline-block;
+  line-height: 0.7;
+}
+
+#descrizione {
+  color: #1d1d1f !important;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/*è la parte che comprende il titolo: microaggressioni e la descrizione*/
+.primaparte {
+  margin-top: 50px;
+}
+
+/*parte che comprende la lista: immagine e citazione*/
+.frasi {
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+.iconeprofilo {
+  display: flex;
+  align-items: center;
+}
+
+/*cerchio colorato*/
+.profilo {
+  padding-right: 50px;
+}
+
+/*frase correlata ad ogni cerchio colorato*/
+.commento {
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .primaparte {
+    margin-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+  }
+}
+
+.nomobile {
+  text-align: center;
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 391px) {
+  .mobile {
+    text-align: center;
+  }
+
+  .nomobile {
+    display: none;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 391px) {
+  .mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,135 @@
+#App {
+  width: 100%;
+  position: relative;
+  margin: 0px 0px 80px 0px;
+  overflow: hidden;
+}
+
+.partechatbot {
+  margin-top: 100px;
+}
+
+.buttonschatbot {
+  text-align: center;
+}
+
+.mockup {
+  width: 70%;
+}
+
+.testo {
+  background-color: #d6d6d6;
+  border: none;
+  color: #5a5a5a;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+.testo:hover {
+  background-color: #a7c957;
+  border: none;
+  color: #386641;
+}
+
+.delu {
+  background-color: #d6d6d6;
+  border: none;
+  color: #5a5a5a;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+.delu:hover {
+  background-color: #a7c957;
+  border: none;
+  color: #386641;
+}
+
+.tbutton {
+  background-color: #d6d6d6;
+  border: none;
+  color: #5a5a5a;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+.tbutton:hover {
+  background-color: #a7c957;
+  border: none;
+  color: #386641;
+}
+
+.tabutton {
+  background-color: #d6d6d6;
+  border: none;
+  color: #5a5a5a;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+.tabutton:hover {
+  background-color: #a7c957;
+  border: none;
+  color: #386641;
+}
+
+.buttonsteams {
+  text-align: center;
+}
+
+.prof {
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  .primaparteapp {
+    margin-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
